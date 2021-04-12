@@ -76,8 +76,6 @@ Now just run the server
 ```bash
 $ python app.py
 ```
-
-Wohoo! It's done.
 **Step 7:**
 Give Input through endpoint to perform NER on it
 
