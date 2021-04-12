@@ -79,7 +79,7 @@ $ python app.py
 **Step 7:**
 Give Input through endpoint to perform NER on it
 
-Now go to you browser's search box and paste the server IP **127.0.0.1:8000/"INPUT"
+Now go to you browser's search box and paste the server IP **127.0.0.1:8000/"USER_INPUT"
 
 
 
