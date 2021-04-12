@@ -8,6 +8,8 @@
 - It's a api so it can be used anywhere to perform NER
 - It uses Wikipedia api to show the summary of any input
 
+![alt text](https://cdn.pixabay.com/photo/2021/04/12/20/47/20-47-42-229_1280.jpg)
+
 ### How to RUN
 
 **This procedure is useful for MAC/LINUX. I'm not sure about Windows.**
@@ -78,15 +80,6 @@ $ python app.py
 Wohoo! It's done.
 Now go to you browser's search box and paste the server IP **127.0.0.1:8000**
 
-### Example:
 
-**When custom URL already exists**
-![Markdown Logo](zimages/1.png)
-
-**When URL is unique**
-![Markdown Logo](zimages/2.png)
-
-**After it's done, you get a succes page. Just click on the copy button and paste it in Browser.**
-![Markdown Logo](zimages/3.png)
 
 &copy; Swapnil Srivastava 2021
