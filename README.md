@@ -19,22 +19,22 @@ Frst Install python3 and pip3 in Your system. You can find many tutorials and bl
 Install Virtial Environment "virtualenv" so that your local Python Dependencies are untouched when installing this Project's dependencies.
 
 ```bash
-$ pip3 install virtualenv
+$ pip install virtualenv
 ```
 
 **Step 4:**
 
-Clone this GITHUB REPO using this Link : https://github.com/shash68i/URL-SHORTENER.git in your desired Directory.
+Clone this GITHUB REPO using this Link : https://github.com/Swapnil4Github/project-Flask_ENR_api.git in your desired Directory.
 
 ```bash
 $ git clone https://github.com/Swapnil4Github/project-Flask_ENR_api.git
 ```
 
 **Step 5:**
-Now you'll be having Project Folder "URL_SHORTENER". Navigate to that folder.
+Now you'll be having Project Folder "project-Flask_ENR_api". Navigate to that folder.
 
 ```bash
-$ cd URL-SHORTENER
+$ cd project-Flask_ENR_api
 ```
 
 **Step 6:**
@@ -57,15 +57,14 @@ Replace the name 'venv' with the name of your virtual environment name, if it's 
 Install Dependencies
 
 ```bash
-$ pip3 install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 **Step 6:**
-Now make databases migrations
+Now download required Spacy Model
 
 ```bash
-$ python3 manage.py makemigrations
-$ python3 manage.py migrate
+$ python -m spacy download en_core_web_sm
 ```
 
 **Step 6:**
@@ -73,7 +72,7 @@ Everything's Done!
 Now just run the server
 
 ```bash
-$ python3 manage.py runserver
+$ python app.py
 ```
 
 Wohoo! It's done.
@@ -90,4 +89,4 @@ Now go to you browser's search box and paste the server IP **127.0.0.1:8000**
 **After it's done, you get a succes page. Just click on the copy button and paste it in Browser.**
 ![Markdown Logo](zimages/3.png)
 
-&copy; shashank 2020
+&copy; Swapnil Srivastava 2021
