@@ -7,7 +7,7 @@
 
 ### Feature
 
-- perform Named Entity Recognition on scrapped data of Wikipedia and extrac
+- perform Named Entity Recognition on scrapped data of Wikipedia and extract entities like city, person, organisation, Date, Geographical Entity, Product etc.
 - It's a api so it can be used anywhere to perform NER
 - It uses Wikipedia api to show the summary of any input
 
