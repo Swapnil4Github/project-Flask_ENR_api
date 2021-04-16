@@ -27,7 +27,7 @@ Install Virtial Environment "virtualenv" so that your local Python Dependencies 
 $ pip install virtualenv
 ```
 
-**Step 4:**
+**Step 3:**
 
 Clone this GITHUB REPO using this Link : https://github.com/Swapnil4Github/project-Flask_ENR_api.git in your desired Directory.
 
@@ -35,21 +35,21 @@ Clone this GITHUB REPO using this Link : https://github.com/Swapnil4Github/proje
 $ git clone https://github.com/Swapnil4Github/project-Flask_ENR_api.git
 ```
 
-**Step 5:**
+**Step 4:**
 Now you'll be having Project Folder "project-Flask_ENR_api". Navigate to that folder.
 
 ```bash
 $ cd project-Flask_ENR_api
 ```
 
-**Step 6:**
+**Step 5:**
 Create a Virtual Environment here. You can name anything, but in my case I'm using '_venv_'
 
 ```bash
 $ virtualenv venv
 ```
 
-**Step 7:**
+**Step 6:**
 Activate the Virtual Environment
 
 ```bash
@@ -58,28 +58,28 @@ $ source venv/bin/activate
 
 Replace the name 'venv' with the name of your virtual environment name, if it's different.
 
-**Step 6:**
+**Step 7:**
 Install Dependencies
 
 ```bash
 $ pip install -r requirements.txt
 ```
 
-**Step 6:**
+**Step 8:**
 Now download required Spacy Model
 
 ```bash
 $ python -m spacy download en_core_web_sm
 ```
 
-**Step 6:**
+**Step 9:**
 Everything's Done!
 Now just run the server
 
 ```bash
 $ python app.py
 ```
-**Step 7:**
+**Step 10:**
 Give Input through endpoint to perform NER on it
 
 Now go to you browser's search box and paste the server IP **127.0.0.1:8000/"USER_INPUT"
