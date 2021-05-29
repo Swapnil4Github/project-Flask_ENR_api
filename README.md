@@ -1,10 +1,12 @@
 ## Flask Named Entity Recognition API
-Flask API deployed link : http://swapnilsrivastava.pythonanywhere.com/
-Streamlit App of this Project deployed link : https://display-ner-streamlit.herokuapp.com
+
 > It's a flask api to perform Named Entity Recognition on scrapped data of Wikipedia 
 > and extract entities like city, person, organisation, Date, Geographical Entity, Product etc.
 
 ![alt text](https://res.cloudinary.com/trinitytuts/image/upload/v1585627329/REST_API_jqcrkq.png)
+
+- Flask API deployed link : http://swapnilsrivastava.pythonanywhere.com/
+- Streamlit App of this Project deployed link : https://display-ner-streamlit.herokuapp.com
 
 ### Feature
 
