@@ -5,6 +5,7 @@
 
 ![alt text](https://res.cloudinary.com/trinitytuts/image/upload/v1585627329/REST_API_jqcrkq.png)
 
+- Streamlit App built by me for this project(Github link) : https://github.com/Swapnil4Github/Display_NER_Streamlit
 - Flask API deployed link : http://swapnilsrivastava.pythonanywhere.com/
 - Streamlit App of this Project deployed link : https://display-ner-streamlit.herokuapp.com
 
